@@ -907,10 +907,10 @@ export default function Portfolio() {
 
               <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4 mb-8 sm:mb-12 px-4">
                 <a
-                  href="#projects"
+                  href="/UmeshMaliResume.pdf"
                   className="px-6 sm:px-8 py-3 sm:py-4 bg-linear-to-r from-violet-600 to-purple-600 text-white rounded-full font-body font-semibold transition-all duration-300 hover:scale-105 btn-glow text-sm sm:text-base touch-target"
                 >
-                  View My Work
+                  Download CV
                 </a>
                 <a
                   href="#contact"
