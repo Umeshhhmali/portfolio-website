@@ -133,6 +133,8 @@ export default function Portfolio() {
       description: 'Built a production-ready MERN stack platform with Socket.io for real-time bidding, JWT authentication, and a comprehensive admin dashboard.',
       tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Socket.io'],
       highlights: ['Real-time bidding', 'Role-based access', 'Auto lifecycle'],
+      challenge: 'Handling complex state management and ensuring smooth performance while multiple users interact with the system simultaneously.',
+      solution: 'Implemented optimized API calls, efficient state handling, and modular architecture to maintain performance and scalability.',
       github: 'https://github.com/Umeshhhmali/Prime-Bid',
       live: '#',
       gradient: 'from-violet-600 to-purple-600',
@@ -145,6 +147,8 @@ export default function Portfolio() {
       description: 'Developed an AI-driven platform that simulates real interview scenarios with instant feedback and progress tracking.',
       tech: ['React.js', 'OpenAI API', 'Node.js', 'MongoDB'],
       highlights: ['Dynamic questions', 'Real-time analysis', 'Progress tracking'],
+      challenge: 'Handling complex state management and ensuring smooth performance while multiple users interact with the system simultaneously.',
+      solution: 'Implemented optimized API calls, efficient state handling, and modular architecture to maintain performance and scalability.',
       github: 'https://github.com/Umeshhhmali/Ai-Interview-Mocker',
       live: '#',
       gradient: 'from-blue-600 to-cyan-600',
@@ -157,6 +161,8 @@ export default function Portfolio() {
       description: 'Built a sleek Flutter-based eCommerce application featuring cart management, checkout flow, and Provider-powered state management.',
       tech: ['Flutter', 'Dart', 'Provider', 'Material UI'],
       highlights: ['Modern UI', 'Cart & checkout', 'Provider state management'],
+      challenge: 'Handling complex state management and ensuring smooth performance while multiple users interact with the system simultaneously.',
+      solution: 'Implemented optimized API calls, efficient state handling, and modular architecture to maintain performance and scalability.',
       github: 'https://github.com/Umeshhhmali/Nike-Store-flutter',
       live: '#',
       gradient: 'from-violet-600 to-cyan-600',
@@ -169,6 +175,8 @@ export default function Portfolio() {
       description: 'Developed a React Native recipe discovery app powered by TheMealDB with search, favorites using AsyncStorage, and smooth animated UI.',
       tech: ['React Native', 'Expo', 'AsyncStorage', 'Reanimated', 'TheMealDB API'],
       highlights: ['Recipe search', 'Favorites storage', 'Animated UI', 'Masonry layout'],
+      challenge: 'Handling complex state management and ensuring smooth performance while multiple users interact with the system simultaneously.',
+      solution: 'Implemented optimized API calls, efficient state handling, and modular architecture to maintain performance and scalability.',
       github: 'https://github.com/Umeshhhmali/Cooksy-App',
       live: '#',
       gradient: 'from-amber-500 to-orange-600',
@@ -181,6 +189,8 @@ export default function Portfolio() {
       description: 'Built a pixel-perfect Netflix replica with Firebase authentication, TMDB API integration, and optimized video playback.',
       tech: ['React.js', 'Firebase', 'TMDB API', 'Context API'],
       highlights: ['Firebase auth', 'Dynamic content', 'Video player'],
+      challenge: 'Handling complex state management and ensuring smooth performance while multiple users interact with the system simultaneously.',
+      solution: 'Implemented optimized API calls, efficient state handling, and modular architecture to maintain performance and scalability.',
       github: 'https://github.com/Umeshhhmali/Netflix-Clone',
       live: '#',
       gradient: 'from-red-600 to-orange-600',
@@ -193,6 +203,8 @@ export default function Portfolio() {
       description: 'Built a cross-platform weather application using React Native and Expo that fetches live data from OpenWeatherMap with a clean, modern interface.',
       tech: ['React Native', 'Expo', 'OpenWeatherMap API', 'NativeWind'],
       highlights: ['Live weather data', 'City search', 'Minimal UI', 'API integration'],
+      challenge: 'Handling complex state management and ensuring smooth performance while multiple users interact with the system simultaneously.',
+      solution: 'Implemented optimized API calls, efficient state handling, and modular architecture to maintain performance and scalability.',
       github: 'https://github.com/Umeshhhmali/WeatherApp',
       live: '#',
       gradient: 'from-sky-500 to-indigo-600',
@@ -907,8 +919,8 @@ export default function Portfolio() {
 
               <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4 mb-8 sm:mb-12 px-4">
                 <a
-                  href="/"
-                  download="UmeshResume.pdf"
+                  href="/UmeshResume.pdf"
+                  download
                   className="px-6 sm:px-8 py-3 sm:py-4 bg-linear-to-r from-violet-600 to-purple-600 text-white rounded-full font-body font-semibold transition-all duration-300 hover:scale-105 btn-glow text-sm sm:text-base touch-target"
                 >
                   Download CV
@@ -1200,7 +1212,7 @@ export default function Portfolio() {
                                 Challenge
                               </h4>
                               <p className="font-body text-sm leading-relaxed opacity-95">
-                                Traditional auction platforms lack real-time capabilities and proper security measures.
+                                {project.challenge}
                               </p>
                             </div>
 
@@ -1209,7 +1221,7 @@ export default function Portfolio() {
                                 Solution
                               </h4>
                               <p className="font-body text-sm leading-relaxed opacity-95">
-                                Built with Socket.io for real-time updates, JWT authentication, and scalable architecture.
+                                {project.solution}
                               </p>
                             </div>
                           </div>
