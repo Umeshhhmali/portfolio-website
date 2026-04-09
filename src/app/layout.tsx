@@ -12,17 +12,23 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Umesh Mali | Full Stack Developer",
-  description:
-    "Umesh Mali portfolio. Full Stack Developer specializing in MERN stack, React.js, Node.js, and modern web applications.",
-  authors: [{ name: "Umesh Mali" }],
-  keywords: [
-    "Umesh Mali",
-    "Umesh Mali developer",
-    "MERN stack developer",
-    "React developer portfolio",
-  ],
+  description: "Portfolio of Umesh Mali showcasing MERN stack projects.",
+  openGraph: {
+    title: "Umesh Mali | Full Stack Developer",
+    description: "Portfolio of Umesh Mali showcasing MERN stack projects.",
+    url: "https://umeshmali.tech",
+    siteName: "Umesh Mali Portfolio",
+    images: [
+      {
+        url: "https://umeshmali.tech/preview.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
